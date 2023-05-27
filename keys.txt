@@ -1,0 +1,12 @@
+Hi boosty180356063!
+
+Here's your personal Marvel Comics API information:
+
+Your public key
+7d23170d841421e2acb7c58421d5eced
+Your private key
+b38c2e12d3b1cc8b5e70f477496e941b8abd94d7
+hash
+5876f0e116e234f5870326ac97292947
+
+const ts = "jk23sd!@*(d)dsf";
