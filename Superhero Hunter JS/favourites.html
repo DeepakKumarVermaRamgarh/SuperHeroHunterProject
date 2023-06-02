@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Font awesome icon cdn link -->
+    <script defer src="https://kit.fontawesome.com/b1df904c6f.js" crossorigin="anonymous"></script>
+
+    <!-- custom styles link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- custom javascript file-->
+    <script defer src="./favourite.js"></script>
+
+    <title>Superhero Hunter</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="d-flex a-center j-between">
+        <!-- Navbar content -->
+        <img src="./assets/Logo.jpg" alt="Logo">
+        <!-- <input id="search" type="search" placeholder="Search Super Hero" aria-label="Search"> -->
+        <div class="tooltip">
+            <a href="./index.html"><i class="fa-solid fa-delete-left fa-2x" style="color: #aca820;"></i></a>
+            <span class=" tooltip-text">Back</span>
+        </div>
+    </nav>
+
+    <!-- main container -->
+    <main>
+        <ul id="search-results" class="d-flex j-center f-wrap">
+            <!-- <li>
+                <div class="hero-card">
+                    <div class="hero-image">
+                        <img src="./assets/Logo.jpg" alt="SuperHero">
+                    </div>
+                    <div class="hero-action d-flex a-center j-between">
+                        <span>Captain Americas dfsdfdfs dfsd</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+    </main>
+
+    <!-- Toast -->
+    <div class="toast hide t-center">
+        <i class="fa-solid fa-circle-check" style="color:green"></i>
+        &nbsp;&nbsp;&nbsp;
+        <span id="toastText"></span>
+    </div>
+</body>
+
+</html>
